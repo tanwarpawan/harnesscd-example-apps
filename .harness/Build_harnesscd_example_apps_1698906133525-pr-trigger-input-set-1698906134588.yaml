@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_harnesscd_example_apps_1698906133525-pr-trigger-input-set
+  identifier: Build_harnesscd_example_apps_1698906133525prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_harnesscd_example_apps_1698906133525
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
